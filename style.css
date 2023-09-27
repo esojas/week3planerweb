@@ -1,0 +1,94 @@
+.centertext {
+    font-family:'Roboto', sans-serif;;
+    text-align: center;
+    color:white
+    
+}
+.changefont {
+    font-family:'Roboto', sans-serif;;
+    color:white
+
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(0,0,0,0.7)),url('1315837.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.box2 {
+    height: 250px;
+    width: 512px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+}
+.box3 {
+    position: relative;
+    bottom:250px;
+    height: 420px;
+    width:512px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+}
+.box5 {
+    height: 170px;
+    width:512px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+    
+}
+.box4 {
+    height: 500px;
+    width: 512px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);   
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+}
+.input-box input{
+    position: relative;
+    margin:30px;
+    margin-left: -135px;
+    transform: translateY(20px);
+    width: 300px;
+}
+.input-box2 textarea {
+    position: relative;
+    margin: 20px;
+    margin-left: -105px;
+    width: 300px;
+    height: 100px;
+}
+.move {
+    position: relative;
+    left: 5px;
+}
+.move2 {
+    position: relative;
+    top:30px;
+}
+.square {
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: white;
+}
+.move3 {
+    position: relative;
+    top: 30px;
+}
+.table2 {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.form {
+    width: 155px;
+}
+
